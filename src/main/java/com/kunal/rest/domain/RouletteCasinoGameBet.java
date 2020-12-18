@@ -24,7 +24,7 @@ public class RouletteCasinoGameBet {
 		return rouletteCasinoGameBettingPlayer;
 	}
 
-	public RouletteCasinoGameBetEvenOdd target() {
+	public RouletteCasinoGameBetEvenOdd rouletteCasinoGameBetEvenOdd() {
 		return rouletteCasinoGameBetEvenOdd;
 	}
 

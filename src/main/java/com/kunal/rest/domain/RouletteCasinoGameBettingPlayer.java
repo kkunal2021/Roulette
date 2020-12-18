@@ -32,4 +32,12 @@ public class RouletteCasinoGameBettingPlayer {
     public double rouletteCasinoGameNumberOfBets() {
         return rouletteCasinoGameNumberOfBets;
     }
+
+    public void roundRobin(final RouletteCasinoGameOutput rouletteCasinoGameOutput) {
+        final RouletteCasinoGameBet casinoGameBet = rouletteCasinoGameOutput.rouletteCasinoGameBet();
+        if (rouletteCasinoGameOutput.win()) {
+            rouletteCasinoGameWin += (casinoGameBet.rouletteCasinoGameBetEvenOdd().totalBetAmount() * casinoGameBet.bettingAmount());
+        }
+        rouletteCasinoGameNumberOfBets += casinoGameBet.bettingAmount();
+    }
 }
