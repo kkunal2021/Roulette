@@ -2,6 +2,10 @@ package com.kunal.rest.domain;
 
 import com.kunal.rest.repository.RouletteCasinoGameBetEvenOdd;
 
+/**
+ * @author kunal
+ */
+
 public class OddEvenEnumRule implements RouletteCasinoGameBetEvenOdd {
 
     static final double TOTAL_BET_AMOUNT = 2.0;

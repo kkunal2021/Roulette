@@ -2,6 +2,10 @@ package com.kunal.rest.domain;
 
 import com.kunal.rest.repository.RouletteCasinoGameBetEvenOdd;
 
+/**
+ * @author kunal
+ */
+
 public class RouletteCasinoGameOutput {
 
     public static final double ZERO = 0.0;

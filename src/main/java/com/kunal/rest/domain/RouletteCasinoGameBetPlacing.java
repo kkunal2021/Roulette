@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/**
+ * @author kunal
+ */
+
 public class RouletteCasinoGameBetPlacing {
 
     private final List<RouletteCasinoGameBet> rouletteCasinoGameBets = new ArrayList<>();
